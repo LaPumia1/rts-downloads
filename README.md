@@ -27,7 +27,7 @@
   <img src="https://img.shields.io/badge/⬇%20%20BAIXAR%20AGORA-F36523?style=for-the-badge&labelColor=F36523" alt="Baixar agora" height="44">
 </a>
 &nbsp;
-<a href="https://www.rtseletrica.com.br/">
+<a href="https://rtseletrica.netlify.app/">
   <img src="https://img.shields.io/badge/🌐%20%20SITE%20DA%20RTS-111111?style=for-the-badge" alt="Site da RTS" height="44">
 </a>
 
@@ -172,7 +172,7 @@ Sim. O servidor escuta em <code>0.0.0.0:502</code>; basta usar o IP da máquina 
 
 **RTS Soluções em Elétrica e Automação** — manutenção preventiva em máquinas industriais, montagem de painéis elétricos, SPDA, programação de CLP e desenvolvimento de software para automação.
 
-🌐 [rtseletrica.com.br](https://www.rtseletrica.com.br/) &nbsp;·&nbsp; ✉️ [comercial@rtseletrica.com.br](mailto:comercial@rtseletrica.com.br)
+🌐 [rtseletrica.netlify.app](https://rtseletrica.netlify.app/) &nbsp;·&nbsp; ✉️ [comercial@rtseletrica.com.br](mailto:comercial@rtseletrica.com.br)
 
 </td>
 </tr>
