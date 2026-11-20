@@ -1,0 +1,58 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 1200 340" width="1200" height="340" role="img" aria-label="RTS Downloads — Ferramentas Modbus da RTS Soluções em Elétrica e Automação">
+  <defs>
+    <linearGradient id="bg" x1="0" y1="0" x2="1" y2="1">
+      <stop offset="0" stop-color="#0b0b0b"/>
+      <stop offset="1" stop-color="#1c1c1c"/>
+    </linearGradient>
+    <pattern id="grid" width="40" height="40" patternUnits="userSpaceOnUse">
+      <path d="M40 0H0V40" fill="none" stroke="#ffffff" stroke-opacity=".05" stroke-width="1"/>
+    </pattern>
+    <linearGradient id="scan" x1="0" x2="1">
+      <stop offset="0" stop-color="#F36523" stop-opacity="0"/>
+      <stop offset=".5" stop-color="#F36523" stop-opacity=".9"/>
+      <stop offset="1" stop-color="#F36523" stop-opacity="0"/>
+    </linearGradient>
+    <g id="gear">
+      <path d="M-9-50h18l3 12 9 4 11-6 13 13-6 11 4 9 12 3v18l-12 3-4 9 6 11-13 13-11-6-9 4-3 12h-18l-3-12-9-4-11 6-13-13 6-11-4-9-12-3v-18l12-3 4-9-6-11 13-13 11 6 9-4z"/>
+      <circle r="17" fill="#0b0b0b"/>
+    </g>
+    <style>
+      .spin  { animation: spin 14s linear infinite; transform-box: fill-box; transform-origin: center; }
+      .spinr { animation: spin 9s linear infinite reverse; transform-box: fill-box; transform-origin: center; }
+      .sweep { animation: sweep 3.2s ease-in-out infinite; }
+      .blink { animation: blink 1.6s steps(2) infinite; }
+      @keyframes spin  { to { transform: rotate(360deg); } }
+      @keyframes sweep { 0% { transform: translateX(-420px); } 100% { transform: translateX(1200px); } }
+      @keyframes blink { 50% { opacity: 0; } }
+      text { font-family: 'Segoe UI', Inter, Helvetica, Arial, sans-serif; }
+    </style>
+  </defs>
+
+  <rect width="1200" height="340" fill="url(#bg)"/>
+  <rect width="1200" height="340" fill="url(#grid)"/>
+  <rect x="0" y="0" width="10" height="340" fill="#F36523"/>
+
+  <!-- engrenagens -->
+  <g transform="translate(1010 150)" fill="#F36523" opacity=".95"><use href="#gear" class="spin"/></g>
+  <g transform="translate(1102 252) scale(.6)" fill="#ffffff" opacity=".85"><use href="#gear" class="spinr"/></g>
+  <g transform="translate(905 270) scale(.42)" fill="#ffffff" opacity=".25"><use href="#gear" class="spinr"/></g>
+
+  <!-- textos -->
+  <text x="70" y="88" fill="#F36523" font-size="20" font-weight="700" letter-spacing="6">RTS · SOLUÇÕES EM ELÉTRICA E AUTOMAÇÃO</text>
+  <text x="66" y="178" fill="#ffffff" font-size="88" font-weight="900" letter-spacing="-3">RTS DOWNLOADS</text>
+  <text x="70" y="226" fill="#d0d0d0" font-size="26" font-weight="400">Ferramentas Modbus gratuitas para testar, simular e integrar CLPs</text>
+
+  <g transform="translate(70 262)">
+    <rect width="150" height="36" fill="#F36523"/>
+    <text x="75" y="24" fill="#0b0b0b" font-size="16" font-weight="800" text-anchor="middle" letter-spacing="2">MODBUS TCP</text>
+    <rect x="164" width="150" height="36" fill="none" stroke="#F36523" stroke-width="2"/>
+    <text x="239" y="24" fill="#F36523" font-size="16" font-weight="800" text-anchor="middle" letter-spacing="2">MODBUS RTU</text>
+    <rect x="328" width="130" height="36" fill="none" stroke="#ffffff" stroke-opacity=".5" stroke-width="2"/>
+    <text x="393" y="24" fill="#ffffff" font-size="16" font-weight="800" text-anchor="middle" letter-spacing="2">PYTHON</text>
+    <circle cx="486" cy="18" r="6" fill="#3ddc84" class="blink"/>
+    <text x="500" y="24" fill="#9a9a9a" font-size="15" font-weight="600" letter-spacing="1">ONLINE · GRÁTIS</text>
+  </g>
+
+  <!-- linha de varredura -->
+  <rect x="0" y="334" width="420" height="6" fill="url(#scan)" class="sweep"/>
+</svg>
